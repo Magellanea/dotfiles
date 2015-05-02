@@ -154,3 +154,6 @@ export PATH="/usr/local/heroku/bin:$PATH"
 ### ADD LUA-JIT Path
 export PATH="~/torch/bin:$PATH;"
 export LD_LIBRARY_PATH="~/torch/lib:\$LD_LIBRARY_PATH;"
+# Handle GOPATH
+mkdir -p /home/yakoub/gopath
+export GOPATH='/home/yakoub/gopath'
