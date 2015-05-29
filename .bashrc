@@ -99,6 +99,7 @@ alias create_flask_project='cookiecutter https://github.com/sloria/cookiecutter-
 alias f_db_it='python manage.py db init'
 alias f_db_mg='python manage.py db migrate'
 alias f_db_ug='python manage.py db upgrade'
+alias flask_s='python manage.py server'
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
